@@ -14,5 +14,8 @@ public class App
 
     public static void print(String message){
         System.out.println(message);
+        if(message.isEmpty()){
+            System.out.println("No message provided!!");
+        }
     }
 }
