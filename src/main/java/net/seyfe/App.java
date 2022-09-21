@@ -11,6 +11,10 @@ public class App
         System.out.println( "Hello World!" );
         print("Bonjour, mon frere" + Constant.DATA_TYPE + "!!");
     }
+    
+    public void addedMethod(){
+        System.out.println("Added a new method");
+    }
 
     public static void print(String message){
         System.out.println(message);
