@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        print("Bonjour, mon frere!!");
+        print("Bonjour, mon frere" + Constant.DATA_TYPE + "!!");
     }
 
     public static void print(String message){
